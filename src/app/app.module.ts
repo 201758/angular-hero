@@ -12,6 +12,8 @@ import { RxjsPracticeComponent } from './rxjs-practice/rxjs-practice.component';
 import {HttpClientModule} from "@angular/common/http";
 import {HttpClientInMemoryWebApiModule} from "angular-in-memory-web-api";
 import { InMemoryDataService } from './in-memory-data.service';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { HeroBirthdayComponent } from './hero-birthday/hero-birthday.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { InMemoryDataService } from './in-memory-data.service';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    RxjsPracticeComponent
+    RxjsPracticeComponent,
+    HeroSearchComponent,
+    HeroBirthdayComponent
   ],
   imports: [
     BrowserModule,
